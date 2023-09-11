@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats</title>
+    <link rel="icon" href="../Amazing_Events/assets/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="gradiente">
+    <header>
+        <nav class="navbar navbar-expand-lg  bg-dark bg-gradient">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../Amazing_Events/assets/amazing_brand.png" alt="amazing_logo" width="90" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page"
+                                href="Upcoming-Events.html">Upcoming
+                                Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="Past-Events.html">Past
+                                Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="Contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="Stats.html">Stats</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-caption d-none d-md-block mb-4">
+                    <h1 class="display-1">Stats</h1>
+                </div>
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="../Amazing_Events/assets/optional_banner_1.jpg" class="d-block w-100" alt="banner_1">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="../Amazing_Events/assets/optional_banner_2.jpg" class="d-block w-100" alt="banner_2">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="../Amazing_Events/assets/optional_banner_3.jpg" class="d-block w-100" alt="banner_3">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="../Amazing_Events/assets/optional_banner_4.jpg" class="d-block w-100" alt="banner_4">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="../Amazing_Events/assets/optional_banner_5.jpg" class="d-block w-100" alt="banner_5">
+                </div>
+            </div>
+        </div>
+        <div class="tablas  col-9 offset-1">
+            <table class="table table-bordered table-dark table-striped table-hover my-3 border-black">
+                <thead>
+                    <tr>
+                        <th colspan="3">Event Statistics</th>
+                    </tr>
+                    <tr>
+                        <td>Event with highest % of assistance</td>
+                        <td>Event with lowest % of assistance</td>
+                        <td>Event with largest capacity</td>
+                    </tr>
+                </thead>
+                <tbody id="bodyTabla_1">
+                </tbody>
+            </table>
+            <table class="table table-bordered table-dark table-striped table-hover mb-3  border-black">
+                <thead>
+                    <tr>
+                        <th colspan="3">Past events statistics by category</th>
+                    </tr>
+                    <tr>
+                        <td>Categories</td>
+                        <td>Revenues</td>
+                        <td>Percentage of assistance</td>
+                    </tr>
+                </thead>
+                <tbody id="bodyTabla_2">
+                </tbody>
+            </table>
+            <table class="table table-bordered table-dark table-striped table-hover mb-3  border-black">
+                <thead>
+                    <tr>
+                        <th colspan="3">Upcoming events statistics by category</th>
+                    </tr>
+                    <tr>
+                        <td>Categories</td>
+                        <td>Revenues</td>
+                        <td>Percentage of assistance</td>
+                    </tr>
+                </thead>
+                <tbody id="bodyTabla_3">
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer class="bd-footer py-4 py-md-5 mt-5">
+        <div class="row m-0">
+            <div class="col-5 offset-1 col-lg-2 offset-lg-1 mb-3">
+                <h5>Categoría 1</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#">Item 1</a></li>
+                    <li class="mb-2"><a href="#">Item 2</a></li>
+                    <li class="mb-2"><a href="#">Item 3</a></li>
+                    <li class="mb-2"><a href="#">Item 4</a></li>
+                </ul>
+            </div>
+            <div class="col-5 col-lg-2 mb-3">
+                <h5>Categoría 2</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#">Item 1</a></li>
+                    <li class="mb-2"><a href="#">Item 2</a></li>
+                    <li class="mb-2"><a href="#">Item 3</a></li>
+                    <li class="mb-2"><a href="#">Item 4</a></li>
+                </ul>
+            </div>
+            <div class="col-5 offset-1 col-lg-2 offset-lg-0 mb-3">
+                <h5>Categoría 3</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#">Item 1</a></li>
+                    <li class="mb-2"><a href="#">Item 2</a></li>
+                    <li class="mb-2"><a href="#">Item 3</a></li>
+                    <li class="mb-2"><a href="#">Item 4</a></li>
+                </ul>
+            </div>
+            <div class="col-5 col-lg-4 mr-lg-1 mb-3">
+                <h5>Nuestras redes sociales</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a class="icon-link" href="#"><img class="icon"
+                                src="../Amazing_Events/assets/facebook.png" alt="fb-icon">Facebook</a></li>
+                    <li class="mb-2"><a class="icon-link" href="#"><img class="icon"
+                                src="../Amazing_Events/assets/instagram.png" alt="insta-icon">Instagram</a></li>
+                    <li class="mb-2"><a class="icon-link" href="#"><img class="icon"
+                                src="../Amazing_Events/assets/whatsapp.png" alt="wpp-icon">Whatsapp</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="../Amazing_Events/stats.js"></script>
+</body>
+
+</html>
